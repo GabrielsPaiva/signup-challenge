@@ -20,9 +20,6 @@ Mensagem de sucesso:
 * Um ícone em cada campo
 * Alterar borda do campo no foco do input
 * Remover borda do campo na perda de foco do input
-* Validar campo de email
-* Validar usuário (ao menos 4 caracteres)
-* Validar senha (ao menos 8 caracteres)
 * Tela com mensagem de sucesso
 
 ## Requisitos Técnicos
