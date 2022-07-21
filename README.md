@@ -5,13 +5,13 @@ O objetico desse desafio é verificar os seus conhecimentos de react, você cria
 ## Design
 
 Formulário:
-![formulário](http://url/to/img.png)
+![formulário](https://github.com/1STi/signup-challenge/blob/main/UX/form.png?raw=true)
 
 Cenário de erro:
-![formulário com erro](http://url/to/img.png)
+![formulário com erro](https://github.com/1STi/signup-challenge/blob/main/UX/form-error.png?raw=true)
 
 Mensagem de sucesso:
-![mensagem de sucesso do formulário](http://url/to/img.png)
+![mensagem de sucesso do formulário](https://github.com/1STi/signup-challenge/blob/main/UX/form-success.png?raw=true)
 
 
 ## Requisitos UX
