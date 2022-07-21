@@ -1,6 +1,6 @@
 # Desafio React
 
-O objetico desse desafio é verificar os seus conhecimentos de react, você criará um form e validará 3 campos (email, usuário e senha)
+O objetico desse desafio é verificar os seus conhecimentos de react, você criará um formulário e validará 3 campos (email, usuário e senha)
 
 ## Design
 
