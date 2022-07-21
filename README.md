@@ -7,7 +7,10 @@ O objetico desse desafio é verificar os seus conhecimentos de react, você cria
 Formulário:
 ![formulário](http://url/to/img.png)
 
-Mensagem de Sucesso:
+Cenário de erro:
+![formulário com erro](http://url/to/img.png)
+
+Mensagem de sucesso:
 ![mensagem de sucesso do formulário](http://url/to/img.png)
 
 
@@ -33,4 +36,4 @@ Mensagem de Sucesso:
 ## Como Enviar?
 
 * Clone esse repositório
-* Após finalizado o desafio envie o link do clone no email: [ygorfonseca@1sti.com.br](mailto:alicecoelho@1sti.com.br) com o assunto [Desafio React - Nome Candidato]
+* Após finalizado o desafio envie o link do clone no email: [alicecoelho@1sti.com.br](mailto:alicecoelho@1sti.com.br) com o assunto [Desafio React - Nome Candidato]
