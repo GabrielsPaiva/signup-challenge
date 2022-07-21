@@ -20,6 +20,7 @@ Mensagem de sucesso:
 * Um ícone em cada campo
 * Alterar borda do campo no foco do input
 * Remover borda do campo na perda de foco do input
+* Loading ao submeter o formulário
 * Tela com mensagem de sucesso
 
 ## Requisitos Técnicos
@@ -27,7 +28,7 @@ Mensagem de sucesso:
 * Usar o react router
 * Validar campo de email
 * Validar usuário (ao menos 4 caracteres)
-* Validar senha (ao menos 8 caracteres)
+* Validar senha (ao menos 8 caracteres contendo números e letras)
 * Redirecionar para a tela com mensagem de sucesso
 
 ## Como Enviar?
