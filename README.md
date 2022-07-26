@@ -35,3 +35,7 @@ Mensagem de sucesso:
 
 * Clone esse repositório
 * Após finalizado o desafio envie o link do clone no email: [ygorfonseca@1sti.com.br](mailto:ygorfonseca@1sti.com.br) com o assunto [Desafio React - Nome Candidato]
+
+## Prazo
+
+**O desafio deverá ser entregue até as 18h do dia 29/07 (Sexta Feira)**
