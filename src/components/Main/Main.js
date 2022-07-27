@@ -6,6 +6,7 @@ import {
     Route
 } from "react-router-dom"
 import Formulary from '../Formulary/Formulary';
+import FormSuccess from '../FormSuccess/FormSuccess';
 
 const Div = styled.div`
 background-color: rgb(255, 255, 255);
@@ -24,7 +25,8 @@ export default function Main() {
         <Router>
             <Div>
                 <Routes>
-                    <Route path="/" element={<Formulary/>} />
+                    <Route path="/" element={<Formulary />} />
+                    <Route path='form-success' element={<FormSuccess />} />
                 </Routes>
             </Div>
         </Router>
