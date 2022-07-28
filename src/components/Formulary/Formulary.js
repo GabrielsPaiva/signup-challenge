@@ -84,21 +84,21 @@ export default function Formulary() {
                 {/* Email */}
                 <S.InputFieldSet ref={emailFieldsetStyle}>
                     <S.Legend>Email</S.Legend>
-                    <S.Input title={!isEmailValid ? 'Digite um email válido. Ex: abc123@gmail.com' : false} onChange={(e) => { setEmailInputValue(e.target.value); }} name="email" type="email" required />
+                    <S.Input title={!isEmailValid ? 'Digite um email válido. Ex: abc123@gmail.com' : ''} onChange={(e) => { setEmailInputValue(e.target.value); }} name="email" type="email" required />
                     <S.Icon src={userIcon} alt='ícone de uma pessoa' />
                 </S.InputFieldSet>
 
                 {/* user */}
                 <S.InputFieldSet ref={userFieldsetStyle}>
                     <S.Legend>Usuário</S.Legend>
-                    <S.Input title={!isUserValid ? 'O usuário deve conter ao menos 4 caracteres' : false} onChange={(e) => { setUserInputValue(e.target.value); }} name="userName" type="text" required />
+                    <S.Input title={!isUserValid ? 'O usuário deve conter ao menos 4 caracteres' : ''} onChange={(e) => { setUserInputValue(e.target.value); }} name="userName" type="text" required />
                     <S.Icon src={userIcon} alt='ícone de uma pessoa' />
                 </S.InputFieldSet>
 
                 {/* password */}
                 <S.InputFieldSet className='id' ref={passwordFieldsetStyle}>
                     <S.Legend>Senha</S.Legend>
-                    <S.Input title={!isPasswordValid ? 'A senha deve conter ao menos 8 caracteres, números e letras' : false} onChange={(e) => { setPasswordInputValue(e.target.value); }} name="password" type="password" required />
+                    <S.Input title={!isPasswordValid ? 'A senha deve conter ao menos 8 caracteres, números e letras' : ''} onChange={(e) => { setPasswordInputValue(e.target.value); }} name="password" type="password" required />
                     <S.Icon src={passwordIcon} alt='ícone de um cadeado' />
                 </S.InputFieldSet>
 
