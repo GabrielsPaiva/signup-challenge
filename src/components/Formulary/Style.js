@@ -63,12 +63,11 @@ border: none;
 width: 85%;
 height: 90%;
 outline: none;
-
-&:focus{
-    .id{
-        background-color: blue;
-    }
-}
+`
+export const Icon = styled.img`
+width: 5%;
+height: 60%;
+margin: 0 0 1% 2%;
 `
 export const SubmitButton = styled.button`
 background-color: rgb(3, 103, 252);
@@ -79,5 +78,6 @@ border-radius: 10px;
 width: 100%;
 height: 100%;
 opacity: 0.3;
+cursor: pointer;
 
 `
