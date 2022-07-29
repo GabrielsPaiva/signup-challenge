@@ -26,8 +26,8 @@ export default function Formulary() {
         let emailStyle = emailFieldsetStyle.current.style
 
         if (emailInputValue.match(/^\S+@\S+\.\S+$/)) {
-            emailStyle.borderColor = 'inherit'
-            emailStyle.color = 'inherit'
+            emailStyle.borderColor = 'none'
+            emailStyle.color = 'none'
 
         } else {
             emailStyle.borderColor = 'red'
@@ -37,7 +37,7 @@ export default function Formulary() {
     const userErrorBorderStyle = () => {
         let userStyle = userFieldsetStyle.current.style
 
-        if (userInputValue.length >= 4) {
+        if (userInputValue.trim().length >= 4) {
             userStyle.borderColor = 'inherit'
             userStyle.color = 'inherit'
             setIsUserValid(true)
