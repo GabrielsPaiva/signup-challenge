@@ -19,6 +19,7 @@ export default function Formulary() {
     const emailFieldsetStyle = useRef()
     const userFieldsetStyle = useRef()
     const passwordFieldsetStyle = useRef()
+    const submitButton = useRef()
 
 
     const emailErrorBorderStyle = () => {
@@ -136,11 +137,20 @@ export default function Formulary() {
         }
     }, [emailInputValue, userInputValue, passwordInputValue])
 
+    // function that changes button opacity if everything is valid
+    useEffect(()=>{
+        if (isEmailValid && isUserValid && isPasswordValid) {
+            submitButton.current.style.opacity = '1'
+        } else {
+            submitButton.current.style.opacity = '0.3'
+        }
+    },[isEmailValid, isUserValid, isPasswordValid])
+
     return (
         <S.Div onSubmit={(e) => { e.preventDefault() }}>
             {signupBox()}
             {inputsBox()}
-            <Link to={isEmailValid && isUserValid && isPasswordValid ? 'form-success' : ''}><S.SubmitButton onClick={() => { emailErrorBorderStyle(); userErrorBorderStyle(); passwordErrorBorderStyle() }}>Confirmar</S.SubmitButton></Link>
+            <Link to={isEmailValid && isUserValid && isPasswordValid ? 'form-success' : ''}><S.SubmitButton ref={submitButton} onClick={() => { emailErrorBorderStyle(); userErrorBorderStyle(); passwordErrorBorderStyle() }}>Confirmar</S.SubmitButton></Link>
         </S.Div>
     );
 }

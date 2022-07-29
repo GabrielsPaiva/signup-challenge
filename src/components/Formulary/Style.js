@@ -20,6 +20,13 @@ height: max-content;
 export const Title = styled.h2`
 font-size: 1.5vw;
 font-weight: 500;
+
+@media(max-width: 768px){
+    font-size: 2.5vw;
+}
+@media(max-width: 425px){
+    font-size: 3vw;
+}
 `
 export const Line = styled.div`
 background-color: gray;
@@ -55,6 +62,13 @@ font-size: 0.9vw;
 font-weight: 300;
 margin-left: 2%;
 padding: 0 1% 0 1%;
+
+@media(max-width: 768px){
+    font-size: 1.5vw;
+}
+@media(max-width: 425px){
+    font-size: 2.5vw;
+}
 `
 export const Input = styled.input`
 font-size: 1.5vw;
@@ -63,6 +77,13 @@ border: none;
 width: 85%;
 height: 90%;
 outline: none;
+
+@media(max-width: 768px){
+    font-size: 2.2vw;
+}
+@media(max-width: 425px){
+    font-size: 2.8vw;
+}
 `
 export const Icon = styled.img`
 width: 5%;
@@ -79,5 +100,12 @@ width: 100%;
 height: 100%;
 opacity: 0.3;
 cursor: pointer;
+
+@media(max-width: 768px){
+    font-size: 1.5vw;
+}
+@media(max-width: 425px){
+    font-size: 2.5vw;
+}
 
 `

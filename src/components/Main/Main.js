@@ -18,6 +18,18 @@ box-shadow: rgb(232, 232, 232) 5px 5px 6px 2px;
 font-family: 'Roboto', sans-serif;
 width: 35%;
 height: 50%;
+
+@media(max-width: 1024px) {
+    width: 40%;
+    height: 45%;
+}
+@media(max-width: 1024px) {
+    width: 70%;
+    height: 40%;
+}
+@media(max-width: 425px){
+    width: 90%;
+}
 `
 
 export default function Main() {
